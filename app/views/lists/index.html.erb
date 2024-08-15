@@ -1,0 +1,23 @@
+
+
+<div class="banner">
+  <h2>Save Any Kinds of Movies</h2>
+</div>
+
+<div class="container">
+  <div class="heading row">
+    <h2 class="col my-4">My Movies List</h2>
+  </div>
+
+
+  <div class="row align-items-center justify-content-center">
+    <% @lists.each do |list| %>
+      <div class="card col-3 m-3">
+        <ul>
+          <h5><%= link_to list.name, list_path(list), {:style=>'color:#FFFFFF; text-decoration:none'} %></h5>
+        </ul>
+      </div>
+    <% end %>
+  </div>
+
+</div>

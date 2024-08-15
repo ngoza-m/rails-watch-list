@@ -1,0 +1,33 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: asset-url("banner.jpg");
+  background-size: cover;
+  height: 400px;
+
+  h2 {
+    color: white;
+    font-weight: bolder;
+    text-shadow: 2px 2px #000000;
+    font-size: 50px;
+  }
+}
+
+.list_banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: asset-url("list_banner.jpg");
+  background-size: cover;
+  height: 400px;
+
+
+  h2 {
+    color: white;
+    font-weight: bolder;
+    text-shadow: 2px 2px #000000;
+    font-size: 50px;
+  }
+
+}
